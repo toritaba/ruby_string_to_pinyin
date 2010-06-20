@@ -1,0 +1,12 @@
+A Ruby gem that converts a string consisting of Simplified Chinese characters into Hanyu Pinyin.
+
+It adds a 'to_pinyin' method to the String class.
+
+Example Usage:
+
+require 'string_to_pinyin'
+
+a = '名'
+puts a.to_pinyin
+# "míng"
+
