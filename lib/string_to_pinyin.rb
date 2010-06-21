@@ -1,8 +1,10 @@
+# encoding: utf-8
 class String
 
   def to_pinyin
     h = Hash.new
-    open('../data/idx99-tone.txt','r').each do |line|
+    idx_file_path = File.expand_path('../../data/idx99-tone.txt',__FILE__)
+    open(idx_file_path,'r').each do |line|
       a = line.gsub("\n","").split("\t")
       h.store a[0], a[1]
     end
