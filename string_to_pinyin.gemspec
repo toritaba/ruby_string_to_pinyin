@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{string_to_pinyin}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Toritaba"]
@@ -25,9 +25,11 @@ Gem::Specification.new do |s|
      "VERSION",
      "data/idx99-tone.txt",
      "lib/string_to_pinyin.rb",
+     "pkg/string_to_pinyin-0.1.0.gem",
      "spec/spec.opts",
      "spec/spec_helper.rb",
-     "spec/string_to_pinyin_spec.rb"
+     "spec/string_to_pinyin_spec.rb",
+     "string_to_pinyin.gemspec"
   ]
   s.homepage = %q{http://github.com/toritaba/string_to_pinyin}
   s.rdoc_options = ["--charset=UTF-8"]
