@@ -6,6 +6,7 @@ describe "StringToPinyin" do
     @single_char = "名"
     @multiple_chars = "中华人民共和国"
     @nil_char = "a"
+    @punctuated = "你好! 你是中国人吗? <- that was mandarin"
   end
   
   it "should return pinyin for a single character if found" do
@@ -18,5 +19,9 @@ describe "StringToPinyin" do
   
   it "should return a character if its not found in the index" do
     @nil_char.to_pinyin.should == 'a'
+  end
+
+  it "should return 'non-simplified chinese characters' as they are" do
+    @punctuated.to_pinyin.should == 'nĭ hăo ! nĭ shì zhōng guó rén ma ? <- that was mandarin'
   end
 end

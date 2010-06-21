@@ -13,7 +13,7 @@ class String
       if h[char]
         result = result + h[char] + " "
       else
-        result = result + self + " "
+        result = result + char
       end
     end
     return result.rstrip
