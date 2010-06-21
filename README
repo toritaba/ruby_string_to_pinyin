@@ -10,3 +10,4 @@ a = '名'
 puts a.to_pinyin
 # "míng"
 
+*Note: It requires the unix program 'grep' to be installed
