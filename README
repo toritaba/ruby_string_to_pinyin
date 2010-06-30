@@ -11,3 +11,15 @@ puts a.to_pinyin
 # "míng"
 
 *Note: It requires the unix program 'grep' to be installed
+
+Installation:
+  <sudo> gem sources -a http://gems.github.com
+  <sudo> gem install toritaba-ruby_string_to_pinyin
+
+
+License:
+  The MIT License. See LICENSE file for more information.
+
+See also two alternative gems:
+http://github.com/superslau/pinyinify
+http://github.com/chenillen/pinyin
