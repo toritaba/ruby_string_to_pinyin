@@ -13,8 +13,7 @@ puts a.to_pinyin
 *Note: It requires the unix program 'grep' to be installed
 
 Installation:
-  <sudo> gem sources -a http://gems.github.com
-  <sudo> gem install toritaba-ruby_string_to_pinyin
+  <sudo> gem install ruby_string_to_pinyin
 
 
 License:
