@@ -1,3 +1,15 @@
-v0.1 - 2010-06-21
+v1.0.0 - 2010-06-30
 
-  Release an initial version that does the job.
+  * License Under MIT, Release gem
+
+v0.2.0 - 2010-06-21
+
+  * Switch to a more efficient grep based search method
+
+v0.1.1 - 2010-06-21
+
+  * Handle characters which are not Simplified Chinese properly
+
+v0.1.0 - 2010-06-21
+
+  * Release an initial version that does the job.
