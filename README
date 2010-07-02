@@ -4,6 +4,7 @@ It adds a 'to_pinyin' method to the String class.
 
 Example Usage:
 
+require 'rubygems'
 require 'string_to_pinyin'
 
 a = '名'
