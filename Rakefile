@@ -8,7 +8,7 @@ begin
     gem.summary = "Converts Simplified Chinese characters to pinyin"
     gem.description = "Adds a 'to_pinyin' method to Ruby's String class to convert Simplified Chinese characters to Hanyu Pinyin"
     gem.email = "toritaba@gmail.com"
-    gem.homepage = "http://github.com/toritaba/string_to_pinyin"
+    gem.homepage = "http://github.com/toritaba/ruby_string_to_pinyin"
     gem.authors = ["Toritaba"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
